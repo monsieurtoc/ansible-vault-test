@@ -6,5 +6,5 @@
   vars_file:
     - ../secrets/myvault.yml
 
-  role:
-    - ansible-vault-test
+  tasks:
+    - debug: msg="{{ description }}"
