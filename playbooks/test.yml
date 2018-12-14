@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  gather_facts: false
+  connection: local
+
+  vars_file:
+    - ../secrets/myvault.yml
+
+  role:
+    - ansible-vault-test

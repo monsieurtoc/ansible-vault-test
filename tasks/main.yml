@@ -1,0 +1,4 @@
+---
+# tasks file for ansible-vault-test
+
+- debug: msg="{{ description }}"
