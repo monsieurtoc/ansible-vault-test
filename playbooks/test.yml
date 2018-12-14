@@ -3,7 +3,7 @@
   gather_facts: false
   connection: local
 
-  vars_file:
+  vars_files:
     - ../secrets/myvault.yml
 
   tasks:
